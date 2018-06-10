@@ -46,6 +46,7 @@ if __name__ == "__main__":
 		r.append(d.utf_hour)
 		r.append(d.temp_dry_bulb)
 		r.append(d.temp_wet_bulb)
+		r.append(d.humidity)
 		r.append(d.level_pressure_on_station)
 		r.append(d.wind_direction)
 		r.append(d.Wind.description)
